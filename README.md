@@ -18,7 +18,7 @@ The encryption adds extra complexity by transposing the encrypted matrix before 
 ## ⚙️ How It Works
 1. Message is converted into a matrix of Unicode values.  
 2. The key (3×3 matrix) is applied as a **linear transformation**.  
-3. The result is transposed for additional obfuscation.  
+3. The result is transposed for additional complexity.  
 4. The encrypted matrix is converted back into text.  
 5. Decryption reverses the process using the **inverse key matrix**.  
 
