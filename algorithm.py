@@ -60,7 +60,7 @@ def decrypt_message(mes,key):
     decrypted_mes = convert_matrix_to_message(decrypted_mat) #Convert the decrypted matrix into the original message
     return decrypted_mes
 
-#main
+#testing
 if __name__ == "__main__":
     print (f"Generated key= {generate_key_string()}")
     mes=input("Enter message to encrypt: ")
